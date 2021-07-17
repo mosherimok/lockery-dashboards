@@ -1,0 +1,8 @@
+{
+  "name": "lockery-dashboards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mosherimok/lockery-dashboards.git",
+  "author": "moshe.rimok <moshe.rimok@sisense.com>",
+  "license": "MIT"
+}

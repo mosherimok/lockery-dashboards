@@ -1,0 +1,36 @@
+.container {
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: auto !important;
+}
+
+.buttonsContainer{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.addFingerprintButton {
+    margin-top: 10px;
+}
+
+.revokeKeyButton {
+    margin-top: 20px !important;    
+}
+
+.addFingerprintInstructionsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}

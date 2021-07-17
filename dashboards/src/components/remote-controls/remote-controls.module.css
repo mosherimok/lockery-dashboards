@@ -1,0 +1,14 @@
+.buttonsContainer {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modalContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
