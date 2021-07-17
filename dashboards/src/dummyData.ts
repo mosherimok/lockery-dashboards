@@ -17,9 +17,13 @@ const headerInfoDummyData = {
         macAddress: '00:1B:44:11:3A:7B'
     },
     lockStatus: 'unlocked',
-    totalAllowedKeys: 5,
     updateHeaderInfo: (newInfo) => {}
 };
+
+const authorizationLogsContext = createContext({
+    logs: [],
+    updateAuthorizationLogs: (newLog) => {} 
+})
 
 const headerInfoContext = createContext(headerInfoDummyData);
 
@@ -27,5 +31,6 @@ export {
     allowedKeysDummyData,
     headerInfoDummyData,
     allowedKeysDummyDataContext,
-    headerInfoContext
+    headerInfoContext,
+    authorizationLogsContext
 };

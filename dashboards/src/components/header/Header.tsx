@@ -1,9 +1,10 @@
 import React, {useContext} from "react";
 import styles from './header.module.css';
-import {headerInfoContext} from "../../dummyData";
+import {allowedKeysDummyDataContext, headerInfoContext} from "../../dummyData";
 
 const Header = () => {
     const headerInfo = useContext(headerInfoContext)
+    const allowedKeys = useContext(allowedKeysDummyDataContext)
 
     console.log(headerInfo);
     return (
@@ -19,7 +20,7 @@ const Header = () => {
             </div>
             <div className={styles.headerItem}>
                 <h4>Total Allowed Keys</h4>
-                <p>{headerInfo.totalAllowedKeys}</p>
+                <p>{allowedKeys.allowedKeys.length}</p>
             </div>
         </div>
     )
